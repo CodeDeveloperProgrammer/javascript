@@ -1,0 +1,5 @@
+1. Instalar de manera global:
+    npm install -g npm-check
+
+2. Para ver las dependencias usadas y recomendacones:
+    npm-check

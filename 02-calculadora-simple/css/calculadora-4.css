@@ -1,0 +1,86 @@
+.numero1 {
+  grid-area: numero1;
+}
+.numero2 {
+  grid-area: numero2;
+}
+.sumar {
+  grid-area: sumar;
+}
+.restar {
+  grid-area: restar;
+}
+.multiplicar {
+  grid-area: multiplicar;
+}
+.dividir {
+  grid-area: dividir;
+}
+.absoluto {
+  grid-area: absoluto;
+}
+.potencia {
+  grid-area: potencia;
+}
+.raiz {
+  grid-area: raiz;
+}
+.random {
+  grid-area: random;
+}
+.resultado {
+  grid-area: resultado;
+}
+.floor {
+  grid-area: floor;
+}
+.round {
+  grid-area: round;
+}
+.ceil {
+  grid-area: ceil;
+}
+
+.container {
+  width: 40%;
+  height: 100vh;
+  margin: 0px auto;
+}
+.grid-container {
+  margin-top: 30px;
+  display: grid;
+  grid-template-areas:
+    "numero1 numero1 numero2 numero2"
+    "sumar   restar   multiplicar   dividir"
+    "potencia  potencia raiz raiz"
+    "absoluto  absoluto random random"
+    "resultado   resultado   resultado   resultado"
+    "floor  round round ceil";
+  gap: 10px;
+  background-color: #122a3e;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(252, 235, 156, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 25px;
+}
+
+#resultado {
+  width: 80%;
+  padding: 5px;
+  font-size: 25px;
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+#numero1, #numero2 {
+  width: 80%;
+  padding: 5px;
+  font-size: 25px;
+  text-align: right;
+  background-color: rgb(244, 246, 242);
+  color: blueviolet;
+}

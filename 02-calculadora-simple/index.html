@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/calculadora-4.css" />
+    <script src="js/calculadora-4.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="grid-container">
+        <div class="numero1">
+          <input type="text" name="numero1" id="numero1" />
+        </div>
+        <div class="numero2">
+          <input type="text" name="numero2" id="numero2" />
+        </div>
+        <div class="sumar">
+          <button id="sumar" onclick="sumar()"> + </button>
+        </div>
+        <div class="restar">
+          <button id="restar" onclick="restar()"> - </button>
+        </div>
+        <div class="multiplicar">
+          <button id="multiplicar" onclick="multiplicar()"> * </button>
+        </div>
+        <div class="dividir">
+          <button id="dividir" onclick="dividir()"> / </button>
+        </div>
+        <div class="absoluto">
+          <button id="absoluto" onclick="valorAbsoluto()">ABSOLUTO</button>
+        </div>
+        <div class="potencia">
+          <button id="potencia" onclick="potencia()">POTENCIA</button>
+        </div>
+        <div class="raiz">
+          <button id="raiz" onclick="raizCuadrada()">RAIZ ^ 2</button>
+        </div>
+        <div class="random">
+          <button id="random" onclick="aleatorio()">RANDOM</button>
+        </div>
+        <div class="resultado">
+          <h2>Resultado</h2>
+          <input type="text" name="resultado" id="resultado" />
+        </div>
+        <div class="floor" onclick="rerondearFloor()">
+          <button id="floor">FLOOR</button>
+        </div>
+        <div class="round" onclick="redondear()">
+          <button id="round">ROUND</button>
+        </div>
+        <div class="ceil" onclick="rerondearCeil()">
+          <button id="ceil">CEIL</button>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>

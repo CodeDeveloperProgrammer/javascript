@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News now!</title>
+    <link rel="stylesheet" type="text/css" href="../assets/styles.css" />
+  </head>
+  <body>
+    <div class="title">
+      <h1>Portal de noticias</h1>
+    </div>
+    <div class="container">
+      <div class="bloque bloqueTiempo">
+        <div class="bloqueHeader">Tiempo</div>
+        <div class="divTiempo">
+          <div id="tiempoMinTemp"></div>
+          <div id="tiempoTemp"></div>
+          <div id="tiempoMaxTemp"></div>
+        </div>
+        <div class="divTiempo">
+          <div id="tiempoPrec"></div>
+          <div id="tiempoCiudad"></div>
+          <div id="tiempoInfo"></div>
+        </div>
+      </div>
+      <div class="bloque bloqueHoras">
+        <div class="bloqueHeader">Hora</div>
+        <div class="divHoras" id="divHoras"></div>
+      </div>
+      <div class="bloque" id="bloqueNoticia">
+        <div class="bloqueHeader">Última noticia</div><br>
+        <div class="bloqueNoticia">
+          <h3 id="noticiaTitulo"></h3>
+          <div id="noticiaContenido"></div>
+          <div id="noticiaAutor"></div>
+        </div>
+      </div>
+      <div class="bloque bloqueCancion">
+        <div class="bloqueHeader">Canción destacada del día</div><br>
+        <div class="divCancion">
+          <div>
+            <img src="../assets/artista.jpg" />
+          </div>
+          <div>We Are All Made of Stars - Moby</div>
+          <div>
+            <audio id="cancionDia" controls></audio>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <script src="../dist/main.js" type="module"></script> -->
+    <!--npm install webpack webpack-cli   npx webpack --mode=production-->
+    <script src="../dist/main.js"></script>
+  </body>
+</html>

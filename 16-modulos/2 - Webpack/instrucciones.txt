@@ -1,0 +1,17 @@
+1. Iniciar un proyecto node.js dentro de la carpeta a usar:
+    npm init -y
+
+2. Crear:
+    una nueva carpeta: src 
+    y dentro el archivo: index.js
+
+3. Instalar:    
+    npm install webpack webpack-cli
+
+4. Instalar una librería de prueba para ver como trabaja webpack:
+    npm install bideo
+
+5. Compilar:
+    npx webpack --mode=development      
+    o
+    npx webpack --mode=production
